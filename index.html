@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Boomerang Transition</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Playfair+Display:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body class="theme-home">
+
+<div class="app">
+
+    <nav class="navbar">
+
+        <a href="#home" class="logo" data-target="home">
+            Drift
+        </a>
+
+        <div class="nav-links">
+
+            <button class="nav-btn active" data-target="home">Home</button>
+            <button class="nav-btn" data-target="work">Work</button>
+            <button class="nav-btn" data-target="contact">Contact</button>
+
+        </div>
+
+    </nav>
+
+    <div class="transition-wrap">
+        <div class="boomerang">
+            <div class="one">
+                <div class="two">
+                    <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" class="boomerang-svg">
+                        <defs>
+                            <linearGradient id="chrome-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#ffffff" />
+                                <stop offset="25%" stop-color="#d0d5e0" />
+                                <stop offset="50%" stop-color="#404350" />
+                                <stop offset="55%" stop-color="#f0f3f8" />
+                                <stop offset="75%" stop-color="#a8b0c0" />
+                                <stop offset="100%" stop-color="#0d0e12" />
+                            </linearGradient>
+
+                            <linearGradient id="matte-dark-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#08090c" />
+                                <stop offset="50%" stop-color="#12141a" />
+                                <stop offset="100%" stop-color="#1c1f2b" />
+                            </linearGradient>
+
+                            <linearGradient id="silver-tip-grad" x1="100%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" stop-color="#ffffff" />
+                                <stop offset="50%" stop-color="#b0b5c0" />
+                                <stop offset="100%" stop-color="#484a54" />
+                            </linearGradient>
+                        </defs>
+
+                        <path fill="url(#chrome-grad)" d="M32.19 32.317c.351-1.768-.27-19.086-4.411-22.615S5.541 7.73 3.881 8.435c-2.24.95-1.352 3.835.184 3.93c5.43.339 16.02.786 18.774 3.133s4.875 12.732 6.07 18.04c.337 1.501 2.643 1.99 3.281-1.221z"></path>
+
+                        <path fill="url(#matte-dark-grad)" d="M31.9 31.817c.382-1.55-.057-19.063-4.197-22.592s-21.3-1.109-22.96-.405c-2.04.85-1.191 2.772.245 2.868c5.43.339 15.52.786 18.274 3.133s4.875 12.232 6.07 17.54c.338 1.301 2.184 1.918 2.568-.544z"></path>
+
+                        <path fill="url(#silver-tip-grad)" d="M6.747 11.537c1.459.089 3.08.196 4.731.339l-.013-4.686a82.092 82.092 0 0 0-3.749.426l-.969 3.921zm21.836 18.61c-.319-1.426-.682-3.01-1.084-4.618l4.629-.73c.094 1.376.149 2.659.174 3.769l-3.719 1.579z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section home active" id="home">
+
+        <div class="noise"></div>
+
+        <div class="section-content">
+            <h1 class="editorial-title">Drift</h1>
+            <p class="editorial-subtitle">Immersive Motion & Cinematic Direction</p>
+        </div>
+
+    </section>
+
+    <section class="section work" id="work">
+
+        <div class="noise"></div>
+
+        <div class="section-content">
+            <h1 class="editorial-title">Archive</h1>
+            <p class="editorial-subtitle">Selected Case Studies &bull; 2026 Edition</p>
+        </div>
+
+    </section>
+
+    <section class="section contact" id="contact">
+
+        <div class="noise"></div>
+
+        <div class="section-content">
+            <h1 class="editorial-title">Resonance</h1>
+            <p class="editorial-subtitle">Connect Designation &bull; Transmit Signal</p>
+        </div>
+
+    </section>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
