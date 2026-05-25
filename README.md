@@ -2,7 +2,9 @@
 
 A cinematic single-page website featuring a unique, high-performance **3D Boomerang Transition** between themed sections. Built using clean, responsive, and performance-optimized vanilla HTML, CSS, and JavaScript.
 
-<video controls src="boomerang%20navigation.mp4" title="Boomerang navigation" width="100%"></video>
+## Preview
+
+![Boomerang Navigation Demo](preview.gif)
 
 ---
 
